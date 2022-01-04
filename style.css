@@ -51,7 +51,7 @@ body {
 }
 
 .second-hand {
-	background: black;
+	background: yellow;
 }
 
 .minute-hand {
@@ -64,9 +64,9 @@ body {
 
 .tick {
 	background: black;
-	width: 50%;
+	width: 100%;
 	height: 1%;
 	position: absolute;
 	top: 50%;
-	transform-origin: 100%;
+	/* transform-origin: 100%; */
 }

@@ -22,7 +22,7 @@ function setDate() {
 
 for (let i = 0; i < tickEl.length; i++) {
 	tickEl[i].style.transform = `rotate(${tickDegrees}deg)`;
-	tickDegrees += 90;
+	tickDegrees += 30;
 	console.log(tickEl[i]);
 }
 
